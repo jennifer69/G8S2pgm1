@@ -15,16 +15,21 @@
               </block>
             </value>
             <next>
-              <block type="movement_right" id="4">
+              <block type="comment_comment" id="40">
+                <field name="TEXT">twerk team booyah</field>
                 <next>
-                  <block type="robot_delay" id="5" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="6">
-                        <field name="NUM">711</field>
-                      </block>
-                    </value>
+                  <block type="movement_right" id="4">
                     <next>
-                      <block type="movement_stop" id="7"></block>
+                      <block type="robot_delay" id="5" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="6">
+                            <field name="NUM">711</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="movement_stop" id="7"></block>
+                        </next>
+                      </block>
                     </next>
                   </block>
                 </next>
@@ -34,10 +39,5 @@
         </next>
       </block>
     </statement>
-    <next>
-      <block type="comment_comment" id="40">
-        <field name="TEXT">twerk team booyah</field>
-      </block>
-    </next>
   </block>
 </xml>
