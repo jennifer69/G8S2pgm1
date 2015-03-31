@@ -34,5 +34,10 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="comment_comment" id="40">
+        <field name="TEXT">twerk team booyah</field>
+      </block>
+    </next>
   </block>
 </xml>
